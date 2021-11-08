@@ -15,7 +15,7 @@ const fpost = ({ span = 1, img, name, tags, pageURL }) => {
 
 const getData = () => {
 
-    fetch('https://pixabay.com/api?key=20970363-e25f75efc680fcf7698affe51&per_page=200/')
+    fetch('https://pixabay.com/api/?key=20970363-e25f75efc680fcf7698affe51&per_page=200')
     .then(response => response.json())
     .then((data) => {
 
